@@ -1,0 +1,22 @@
+{
+  "name": "makemytrip",
+  "version": "1.0.0",
+  "description": "this booking application for many diffrent diffrent platforms",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "makemytrip": "nodemon app.js"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "Mohit Sharma",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "mongodb": "^4.5.0"
+  }
+}
